@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển độ C sang F</title>
+</head>
+<body>
+    <h1>Chuyển độ C sang F </h1>
+    <form>
+        nhập C:<br>
+        <input type="number"  id="nhapc">
+        <br>
+        <!--<br>
+        <input type="number" id="kq">
+        <br>-->
+        <br>
+        <button onclick="chuyendoi()">Kết Quả</button>
+    </form>
+<script>
+    function chuyendoi() {
+        let a=document.getElementById('nhapc').value;
+        let b=(9*a)/5 + 32
+       //document.getElementById('kq').value=b
+        alert("Chuyển đổi C sang F là : "+b);
+    }
+</script>
+
+</body>
+</html>
